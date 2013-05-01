@@ -1,0 +1,57 @@
+
+div.pager
+{
+	text-align:center;
+}
+
+.pelem
+{
+	padding: 10px;
+}
+
+div.detailitem
+{
+	padding-top:8px
+}
+
+.listinglabel
+{
+	width:200px;
+	display:inline-block;
+}
+
+.listingdata
+{
+	display:inline-block;
+	vertical-align:top;
+	width:600px;
+}
+
+.tabdata td
+{
+	vertical-align:text-top;
+}
+
+.tabdata
+{
+	padding:0px;
+	border-spacing:0px;
+	margin:0px;
+}
+
+.photolink img
+{
+	max-height:100px;
+	max-width:150px;
+}
+
+.listings td
+{
+	border-bottom:thick groove red;
+}
+
+table.listings
+{
+	border-collapse:collapse;
+	border:thick groove red;
+}

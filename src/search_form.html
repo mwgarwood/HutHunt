@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Hut Hunter Search</title>
+<meta charset="UTF-8">
+<script type="text/javascript" src="js/placeholder.js"></script>
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="js/searchform.js"></script>
+</head>
+<body>
+<h2>Where would you like to focus your hunt?</h2>
+<form action="search" method=post onsubmit="return validateForm()">
+<input type=text id=area name=Area placeholder="City, State or Zip" required>
+<input type=text id=pricemin name="Minimum Price" placeholder="Minimum Price" min=0 max=10000000>
+<input type=text id=pricemax name="Maximum Price" placeholder="Maximum Price" min=0 max=10000000>
+<input type=text id=squareFootage name="Square Footage" placeholder="Square Footage" min=0 max=10000>
+<input type=submit value=Hunt>
+<div id=errmsg></div>
+</form>
+
+</body>
+</html>
